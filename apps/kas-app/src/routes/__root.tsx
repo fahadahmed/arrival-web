@@ -6,7 +6,7 @@ export const Route = createRootRoute({
     <>
       <div>
         <Link to="/">Home</Link>
-        {/* <Link to="/login">Login</Link> */}
+        <Link to="/login">Login</Link>
         <Link to="/attendance">Attendance</Link>
       </div>
       <Outlet />
